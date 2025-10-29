@@ -1,0 +1,2 @@
+# ohtuvarasto
+Ohjelmistotuotannon kurssi repo
