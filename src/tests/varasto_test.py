@@ -41,7 +41,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_lisays_yli_tilavuuden_rajoittaa_saldoa(self):
         self.varasto.lisaa_varastoon(15)  # enemmän kuin tilavuus
-        self.assertAlmostEqual(self.varasto.saldo, 10)  # saldo ei ylitä tilavuutta
+        self.assertAlmostEqual(self.varasto.saldo, 10)  # ei ylitä tilavuutta
 
     def test_lisays_negatiivinen_maara_ei_muuta_saldoa(self):
         self.varasto.lisaa_varastoon(-5)
