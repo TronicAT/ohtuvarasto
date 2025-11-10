@@ -26,5 +26,5 @@ jobs:
       - name: Run Pylint
         run: poetry run pylint src
 
-      - name: Run tests
-        run: poetry run pytest --maxfail=1 --disable-warnings -q
+      - name: Run tests with coverage
+        run: poetry run coverage run --branch -m pytest

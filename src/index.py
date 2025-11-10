@@ -36,9 +36,6 @@ def testaa_mehu(mehua):
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
-  
-
-  
 
 def testaa_olut(olutta):
     print("Olut virhetilanteita:")
